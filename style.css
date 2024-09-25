@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-icon {
+    width: 80px;
+    height: 80px;
+    padding: 1.5vw;
+}
+
+.nav-text {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #E6DBD0;
+  }
