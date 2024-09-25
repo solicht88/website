@@ -11,7 +11,23 @@
     background-attachment: fixed;
     position: relative;
     backface-visibility: hidden;
+    box-shadow: inset 0 0 0 1000px hsla(24, 16%, 13%, 0.4);
 }
+/*
+.parallax-1 h2 {
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    color: #E6DBD0;
+}
+*/
 
 .parallax-2 {
     width: 100%;
@@ -21,11 +37,68 @@
     background-attachment: fixed;
     position: relative;
     backface-visibility: hidden;
+    box-shadow: inset 0 0 0 1000px hsla(24, 16%, 13%, 0.3);
+}
+
+/*
+.parallax-2 h2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    color: #E6DBD0;
+}
+*/
+
+.feature-select {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    color: #E6DBD0;
+}
+
+.feature-select h2 {
+    font-size: 3.8rem;
+    text-transform: uppercase;
+    padding-bottom: 1.6vh;
+}
+
+.feature-select a {
+    font-size: 1.6rem;
+    color: #E6DBD0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #E6DBD0;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 0.5vw;
+    border-width: 0.2rem;
+}
+
+.feature-select a:hover {
+    background-color: #E6DBD0;
+    color: #251f1b;
 }
 
 .nav-bar {
     display: inline-block;
     width: 100%;
+    background-color: #251f1b;
 }
 
 .nav-bar a {
@@ -49,7 +122,7 @@
 
 .nav-links {
     display: flex;
-    padding-top: 5vh;
+    padding-top: 2.8rem;
     font-family: "Alice", serif;
     font-weight: 400;
     font-style: normal;
@@ -65,9 +138,33 @@
 }
 
 .cur-nav {
+    padding-left: 1.8rem;
     color: #ffb224;
 }
 
 .cur-nav a:hover {
     color: hsla(30, 31%, 86%, 0.75);
+}
+
+.reg-page {
+    width: 100%;
+    height: 100%;
+    /*
+    margin-left: 10vw;
+    margin-right: 10vw;
+    */
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+.reg-page p {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.reg-link {
+    margin-top: 2vh;
 }
