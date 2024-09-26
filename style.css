@@ -156,6 +156,13 @@
     margin-top: 10vh;
     margin-bottom: 10vh;
     text-align: center;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.reg-page h1 {
+    font-size: 2rem;
 }
 
 .reg-page p {
@@ -163,8 +170,39 @@
     margin-right: 3vw;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    font-size: 1.2rem;
 }
 
-.reg-link {
+.reg-select {
     margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    color: #E6DBD0;
+}
+
+.reg-select a {
+    font-size: 1.3rem;
+    color: #251f1b;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #251f1b;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 0.5vw;
+    border-width: 0.2rem;
+}
+
+.reg-select a:hover {
+    background-color: #251f1b;
+    color: #E6DBD0;
 }
