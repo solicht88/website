@@ -153,8 +153,8 @@
     margin-left: 10vw;
     margin-right: 10vw;
     */
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
     text-align: center;
     font-family: "Alice", serif;
     font-weight: 400;
@@ -163,10 +163,12 @@
 
 .reg-page h1 {
     font-size: 2rem;
+    color: #251f1b;
 }
 
 .reg-page h2 {
     font-size: 1.5rem;
+    color: #251f1b;
 }
 
 .reg-page p {
@@ -175,6 +177,7 @@
     margin-top: 2vh;
     margin-bottom: 2vh;
     font-size: 1.2rem;
+    color: #251f1b;
 }
 
 .reg-select {
@@ -210,4 +213,34 @@
 .reg-select a:hover {
     background-color: #251f1b;
     color: #E6DBD0;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    margin: 2vw;
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gallery h1 {
+    font-size: 2rem;
+    color: #251f1b;
+}
+
+.gallery img {
+    object-fit: cover;    
+    width: 15vw;
+    height: 15vw;
+    margin: 1vw;
+}
+
+.gallery img:hover {
+    box-shadow: 0 0 0 3px #251f1b;
 }
