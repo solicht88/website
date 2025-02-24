@@ -1,4 +1,4 @@
-/* ignore this--experimental stuff that may be used laters
+/* ignore this--experimental stuff that may be updated later
 
 let photos = ["../images/cool_pink_friend.jpeg", "../images/solicht_icon_high_res.png", "../images/sunset.png",  "../images/under_water.png"];
 
