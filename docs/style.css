@@ -244,3 +244,13 @@
 .gallery img:hover {
     box-shadow: 0 0 0 3px #251f1b;
 }
+
+.project-text a:link, .project-text a:visited {
+    color: #7261a3;
+    text-decoration: none;
+}
+
+.project-text a:hover {
+    color: #7261a3;
+    text-decoration: none;
+}
