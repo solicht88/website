@@ -245,6 +245,35 @@
     box-shadow: 0 0 0 3px #251f1b;
 }
 
+.works-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    margin: 2vw;
+    text-align: center;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.works-gallery h1 {
+    font-size: 2rem;
+    color: #251f1b;
+}
+
+.works-gallery img {
+    object-fit: cover;
+    max-width: 20vw;
+    margin: 1vw;
+}
+
+.works-gallery img:hover {
+    box-shadow: 0 0 0 3px #251f1b;
+}
+
 .project-text a:link, .project-text a:visited {
     color: #7261a3;
     text-decoration: none;
@@ -253,4 +282,10 @@
 .project-text a:hover {
     color: #7261a3;
     text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+    font-size: 1.2rem;
+    color: #251f1b;
 }
